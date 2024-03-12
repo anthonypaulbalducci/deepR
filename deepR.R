@@ -2,9 +2,14 @@
 # A minimal, light-weight L-layer Deep Learning Neural Network implemented in R. 
 
 init_param <- function(layer_dimensions) {
+
+params <- c("W1"= W1, "b1" = b1, "W2"= W2)
+
+return (params)
 }
 
 linear_forward_prop <- function(activation, weight, intercept) {
+a %*% b
 }
 
 cost <- function(layer_l_activation, Y) {
