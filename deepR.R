@@ -18,3 +18,5 @@ cost <- function(layer_l_activation, Y) {
 linear_back_prop <- function() {
 }
 
+activation_back <- function(dA, cache, activation) {
+}
